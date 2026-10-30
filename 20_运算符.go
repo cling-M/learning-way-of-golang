@@ -15,7 +15,8 @@ func main() {
 	// || 或者 左边右边都假才假，其他都是真
 	fmt.Println("true || false 结果：", true || false)
 	fmt.Println("false || false 结果：", false || false)
-
+ 
 	a := 8
 	fmt.Println("0<= a && a <= 10 结果为", 0 <= a && a <= 10)
+
 }
